@@ -1,15 +1,28 @@
 {
-	"name": "sweet2.0",
-	"version": "1.0.0",
-	"private": true,
-	"description": "sweettobuy 2.0",
-	"main": "index.js",
-	"scripts": {
-		"test1": "node test1"
-	},
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"miniprogram-automator": "*"
-	}
+  "name": "hezhijucheng",
+  "version": "1.0.0",
+  "private": true,
+  "test": "jest",
+  "description": "sweettobuy 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test1": "node test1"
+  },
+  "author": "刘玉杨",
+  "license": "MIT",
+  "devDependencies": {
+    "miniprogram-automator": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyydhr/wxUitest.git"
+  },
+  "keywords": [
+    "lyy123456"
+  ],
+  "bugs": {
+    "url": "https://github.com/lyydhr/wxUitest/issues"
+  },
+  "homepage": "https://github.com/lyydhr/wxUitest#readme"
 }

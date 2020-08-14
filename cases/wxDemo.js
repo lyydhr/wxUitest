@@ -23,9 +23,9 @@ automator.connect({
             wsEndpoint: "ws://localhost:9420",
         })
     .then(async miniProgram => {
-    const page = await miniProgram.reLaunch('/page/component/index')
+    const page = await miniProgram.reLaunch('/pages/tjhuoyun/nologin/nologin')
     await page.waitFor(500)
-    const element = await page.$('.kind-list-item-hd')
+    const element = await page.$('.login')
     console.log(await element.attribute('class'))
     await element.tap()
     // await miniProgram.close()
