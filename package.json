@@ -1,0 +1,15 @@
+{
+	"name": "sweet2.0",
+	"version": "1.0.0",
+	"private": true,
+	"description": "sweettobuy 2.0",
+	"main": "index.js",
+	"scripts": {
+		"test1": "node test1"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"miniprogram-automator": "*"
+	}
+}
